@@ -1,0 +1,45 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.box-shadow{
+  -webkit-box-shadow: 0px 5px 33px -8px rgba(0,0,0,0.43);
+-moz-box-shadow: 0px 5px 33px -8px rgba(0,0,0,0.43);
+box-shadow: 0px 5px 33px -8px rgba(0,0,0,0.43);
+}
+
+
+.canvas-container {
+    margin:0 auto ;
+}
+
+.scroll-area{
+  width:100%;
+  height:calc(100% - 200px);
+  margin-top:100px;
+  background-color:green;
+  float:left;
+  overflow-y:scroll;
+}
+
+.list-group{
+
+  overflow:hidden;
+  overflow-y:scroll;
+  height: 15em; 
+
+}
+
+.list-group-history{
+  overflow:hidden;
+  overflow-y:scroll;
+  height: 37em; }
+
+.btn-border{
+  
+  border: none;
+}
